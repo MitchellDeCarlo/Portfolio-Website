@@ -1,1 +1,73 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+body {
+  background: rgb(24, 23, 23);
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.main-nav {
+  background-color: rgb(201, 1, 1);
+  border-radius: 8px;
+  display: flex;
+  float: left;
+  margin: 0;
+}
+
+
+.main-nav a{
+
+  padding: 1em;
+}
+
+.main-nav a:hover{
+  background-color: rgb(201, 1, 1);
+  border-radius: 8px;
+  transform-style:
+}
+
+.nav-git {
+  text-decoration: none;
+  font-weight: 700;
+  color: whitesmoke;
+  font-size: 1.6em;
+  float: right;
+  padding: 0.5em;
+}
+
+
+.nav-git:hover {
+  transform: scale(1.2,1.2);
+}
+
+span {
+  background-color: red;
+  border-radius: 3px;
+}
+
+.secondary-nav {
+  nav-left: auto;
+  display: flex;
+  place-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.hero {
+  text-align: center;
+}
+
+.Center-Map {
+  padding-top: 10em;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  padding-left: 1em;
+  padding-right: 1em;
+}
